@@ -1,4 +1,4 @@
-module mytool
+module mytools
 
 go 1.14
 

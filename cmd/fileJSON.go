@@ -52,7 +52,7 @@ var fileJSONCmd = &cobra.Command{
 		myString := string(content)
 
 		// Back to working directory
-		err = os.Chdir("/Users/farizree/mytool")
+		err = os.Chdir("/Users/farizree/mytools")
 		// End Back to working directory
 		if err != nil {
 			fmt.Printf("%s", err)
